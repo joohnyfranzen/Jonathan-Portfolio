@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background-color: var(--first-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #20343d;
+
+}
+.title{
+    font-size: 1.5em;
+    font-family:  sans-serif;
+}
+.corpo {
+    margin-top: 24em;
+    display: flex;
+    margin-left: 5em;
+    align-items: center;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 0 3%;
+    box-sizing: border-box;
+    top: 0;
+    height: 70px;
+    margin: 5px 0;
+}
+
+.button {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 0 8px;
+    color: rgb(22, 54, 23);
+    font-size: 1.6em;
+    font-weight: 800;
+}
+.button:hover {
+    border-bottom: 8px solid rgba(85, 172, 113, 0.265);
+}
+#here {
+    padding: 0.3em 5.5em;
+    margin: 3px auto;
+    border: 3px solid transparent;
+    font-size: 20px;
+    background-color: rgba(112, 163, 128, 0.208);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+div.text{
+    padding: 0 30px;
+    
+}
+p.text {
+    font-weight: 500;
+    font-size: 20px;
+    width: 300px;
+    margin: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    
+    
+}
+.text span{
+    font-size: 30px;
+    border-bottom: 3px solid rgba(85, 172, 113, 0.265);
+}
+
+.card img{
+    max-width: 200px;
+
+}
+
+.card-1 {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio {
+    background-color: rgba(33, 46, 37, 0.73);
+    margin: 30px;
+}
+
+.portfolios {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.projects {
+    min-width: 70%;
+    display: flex;
+}
+
+.description {
+    display: flex;
+    margin-left: 10%;
+    color: white;
+}
+
+a {      
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+/* 20343d Background color */
+#bg {
+    background-image: url('images/forest.jpg');
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+}
+
+.options {
+    display: flex;
+}
+
+.buttons {
+    margin: 10%;
+}
+
+.buttons button{
+    padding: 10px 40px ;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 3px solid;
+    background-color: rgba(35, 56, 35, 0.553);
+    font-weight: 700;
+
+}
+
+.buttons button:hover{
+    transition: 1s;
+background-color: black;
+ color: rgb(165, 165, 165);
+
+}
+.eachProject {
+    color: azure;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.eachProject p a{
+    font-weight: 700;
+    color: rgb(125, 174, 220);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Special+Elite&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <nav class="navbar">
+            <div class="title">
+                <h1>Portfólio</h1>            
+            </div>
+            <div class="link">
+                <a class="button" href="index.html">Home</a>
+                <a class="button" href="about.html">About</a>
+                <a class="button" href="contact.html">Contact</a>
+                <a class="button" href="projects.html">Projects</a>
+            </div>
+        </nav>
+        <main id="bg"></main>
+            <div class="options">
+                <div class="buttons">
+                    <button onclick="showHide('Javascript')">Javascript</button>
+                </div>
+                <div class="buttons">
+                    <button onclick="showHide('Node')">Node</button>
+                </div>
+                <div class="buttons">
+                    <button onclick="showHide('Laravel')">Laravel</button>
+                </div>
+            </div>       
+            <div class="onbutton"  id="Javascript">
+                <div class="eachProject">
+                    <h2>Nórdic, meu primeiro html</h2>
+                    <p>Desenvolvido inteiramente em Javascript</p>
+                    <p><a href="https://joohnyfranzen.github.io/All-the-Storys-About/" target="_blank" rel="noopener noreferrer">Link Nórdic</a></p>
+                </div>
+                <div class="eachProject">
+                    <h2>Calculadora</h2>
+                    <p>Desenvolvido inteiramente em Javascript</p>
+                    <p><a href="https://joohnyfranzen.github.io/Calculator-JS/" target="_blank" rel="noopener noreferrer">Link Calculadora</a></p>
+                </div> 
+                <div class="eachProject">
+                    <h2>Game Mata Moscas</h2>
+                    <p>Desenvolvido inteiramente em Javascript</p>
+                    <p><a href="https://joohnyfranzen.github.io/Js-Game-MataMosca/" target="_blank" rel="noopener noreferrer">Link Mata moscas</a></p>
+                </div>
+            </div>
+            <div class="onbutton" style="display: none;" id="Node">
+                <div class="eachProject">
+                    <h2>Toughts</h2>
+                    <iframe width="400" height="280" src="https://www.youtube.com/embed/9DWMVDtgM_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Desenvolvido em Node.js, em suas dependencias foram utilizados flash messages, bcryptjs, connect-flash, cookie; -parser, -session, express; -flash, -handlebars, -session, mysql2, nodemon, sequelize e session-file-store. O projeto conta com uma interface de usuário, sistema de busca, cookies de usuários, codificação de senhas, mensagems de erro customizadas e muito mais.</p>
+                    
+                </div>
+            </div>
+            <div class="onbutton" style="display: none;" id="Laravel">
+                <div class="eachProject">
+                    <h2>Calculadora</h2>
+                    <p>Desenvolvido inteiramente em Javascript</p>
+                </div>
+            </div>
+        </div>
+        <script src="./function.js"></script>
+    </body>
+</html>
